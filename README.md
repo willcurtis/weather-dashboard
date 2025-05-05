@@ -4,7 +4,7 @@ This repository contains a single‐script deployment of the Weather Dashboard (
 
 ## Contents
 
-- `deploy_pi_secure.sh` — all-in-one interactive deploy script  
+- `secure-weather-deploy.sh` — all-in-one interactive deploy script  
 - _(this README)_
 
 ## Usage
@@ -12,11 +12,11 @@ This repository contains a single‐script deployment of the Weather Dashboard (
 1. **Clone** or copy the repo onto your target server.  
 2. **Make executable**:  
    ```bash
-   chmod +x deploy_pi_secure.sh
+   chmod +x secure-weather-deploy.sh
    ```  
 3. **Run** the script as root:  
    ```bash
-   sudo ./deploy_pi_secure.sh
+   sudo ./secure-weather-deploy.sh
    ```  
    You’ll be prompted for your WeatherLink **API Key**, **Secret**, and **Station ID**.  
 4. After completion, the script will display the path to the generated CA cert (e.g. `/etc/ssl/certs/weather-dashboard-ca.crt`).  
@@ -38,4 +38,4 @@ This repository contains a single‐script deployment of the Weather Dashboard (
 
 ## License
 
-MIT © Your Name
+MIT © Will Curtis

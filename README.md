@@ -1,6 +1,6 @@
 # Weather Dashboard Deployment
 
-This repository contains a single‐script deployment of the Weather Dashboard (backend + frontend) on a fresh Ubuntu/Raspbian server, secured via HTTPS with a self‐signed CA.
+This repository contains a single‐script deployment of the Weather Dashboard (backend + frontend) on a fresh Ubuntu/Raspbian server, secured via HTTPS with a self‐signed CA. This is intended to be used with the Davis Weatherlink service and API from here https://www.weatherlink.com/
 
 ## Contents
 
